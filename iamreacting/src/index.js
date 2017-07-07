@@ -4,6 +4,8 @@ import App from './App';
 import Developer from './App2';
 import Project from './App3';
 import BetterProject from './App4';
+import UserPost from './App5';
+
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
@@ -12,3 +14,5 @@ ReactDOM.render(<Developer author="Sumit Kawatra" />, document.getElementById('m
 ReactDOM.render(<Project />, document.getElementById('project'));
 
 ReactDOM.render(<BetterProject />, document.getElementById('betterProject'));
+ReactDOM.render(<UserPost />, document.getElementById('fbpost'));
+
